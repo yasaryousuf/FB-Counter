@@ -1,0 +1,464 @@
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(207,5,58, 0.2);
+  border-right: 1.1em solid rgba(207,5,58, 0.2);
+  border-bottom: 1.1em solid rgba(207,5,58, 0.2);
+  border-left: 1.1em solid #cf053a;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.file-upload {
+	position: relative;
+	display: block;
+}
+
+.file-upload__label {
+  display: block;
+  padding: 5px 15px;
+  font-weight: 400;
+  border: 1px solid #a1a1a1;
+  cursor: pointer;
+  background-color: #a1a1a1;
+  color: #fff;
+  font-size: 14px;
+}
+    
+.file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width:0;
+    height: 100%;
+    opacity: 0;
+}
+
+/*** Subcription Page Css Start Here***/
+.subcription-page h2 {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: di;
+	text-align: center;
+}
+
+.subcription-page table {
+	width: 100%;
+}
+
+.subcription-page th {
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.table-warding-btn {
+	border-radius: 0;
+	width: 100%;
+	border: none;
+}
+
+.billing-table {
+	padding-top: 5%;
+}
+
+.billing-table h3 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.billing-send-btn {
+	display: inline-block;
+	width: 100%;
+	transition: 0.5s;
+	padding: 5px 0;
+}
+
+.billing-send-btn i {
+	color: #18A689;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+.billing-send-btn:hover i{
+	color:#EC4758;
+}
+
+.billing-heading {
+	padding-bottom: 30px;
+}
+
+.billing-heading label, .billing-heading input[type="radio"] {
+	cursor: pointer;
+}
+/*** Subcription Page Css End***/
+
+/*** Setting Page Css STart***/
+
+.add-btn {
+	margin-bottom: 50px;
+	display: block;
+}
+
+.uploaded-banner, #fileupload. input[type="file"] {
+	text-align: center;
+	height: 250px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+	display: table;
+	margin-bottom: 15px;
+	transition: 0.5s;
+}
+
+.uploaded-banner:hover{
+	background: #f3f3f3;
+}
+
+.upload-text-design {
+	font-size: 20px;
+	font-weight: 700;
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.upload-text-design span {
+	display: block;
+	font-size: 35px;
+}
+
+.img-instraction {
+	vertical-align: middle !important;
+	text-align: left !important;
+	padding-top: 10px;
+}
+
+.uploaded_logo {
+	position: relative;
+	max-height: 131px;
+	height: auto;
+}
+
+.uploaded_logo img {
+	max-height: 131px;
+	height: auto;
+}
+
+.img-edit-btn {
+	position: absolute;
+	top: 8%;
+	right: 3%;
+	color: #fff;
+}
+
+.profile-image-uploaded img {
+	border-radius: 50%;
+}
+
+.profile-image-uploaded .img-edit-btn i {
+	font-size: 12px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.img-edit-btn i {
+	font-size: 16px;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.uploaded_advertise_img{
+	position: relative;
+	max-height: 131px;
+	height: auto;
+	margin-top: 50px;
+}
+
+.uploaded_advertise_img img {
+	max-height: 131px;
+	height: auto;
+}
+
+.img-edit-btn2{
+	position: absolute;
+	top: 10%;
+	right: 3%;
+	color: #fff;
+}
+
+.display-hidden{display:none;}
+
+.exmpl {
+	display: block;
+	font-weight: 400;
+	color: #000;
+}
+
+.exmpl span{
+	color: red;
+}
+
+.img-editor, .img-editor2 {
+	cursor: pointer;
+}
+
+.uploaded_advertise_img h3, .uploaded_logo h3 {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.profile-image-uploaded h3 {
+	display: none;
+}
+
+
+#addPage .modal-footer {
+	border: none;
+	padding-top: 50px;
+}
+/*** Setting Page Css End***/
+
+
+/*** Login Page Css End***/
+.login-page i {
+	font-size: 50px;
+	text-align: center;
+	margin-left: 40%;
+}
+
+.gray-bg {
+	background-color: #f3f3f4 !important;
+}
+/*** Login Page Css End***/
+
+
+/*** Regsitation Page Css End***/
+.ibox-content .top-logo-area img {
+	display: block;
+	margin: 30px auto;
+	max-width: 50%;
+}
+
+.register-page {
+	max-width: 450px;
+	margin: 100px auto;
+	width: 100%;
+}
+
+.register-page > .ibox-content {
+	padding: 15px 40px 20px 40px;	background-image: url(..);
+}
+
+.btn-centred {
+	display:block;
+	margin: 0 auto;
+}
+
+.popup-input {position: relative;}
+
+.popup-position {
+	width: 50%;
+	border: 1px solid #ddd;
+	padding: 8px;
+	box-shadow: 0px 1px 5px #555;
+	position: absolute;
+	z-index: 2;
+	background: #fff;
+	transition: 0.5s;
+	transform: translate(-80%,50%);
+	opacity:0;
+	visibility: hidden;
+}
+
+.popup-position.active{
+	transform: translate(0);
+	opacity:1;
+	visibility: visible;
+}
+/*** Regsitation Page Css End***/
+
+.img-circle {
+	width: 38px;
+    height: 38px;
+}
+
+
+
+/*** Dasboard css start***/
+.counter-custome-dasboard {
+	padding: 40px 0;
+}
+
+.counter-custome-dasboard blockquote {
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 17.5px;
+	border-left: 5px solid #eee;
+	background: #fff;
+}
+
+
+.warning-block blockquote {
+	border: 1px solid #F0AD4E;
+	border-left: 5px solid #F0AD4E;
+}
+
+.error-block blockquote {
+	border: 1px solid #D9534F;
+	border-left: 5px solid #D9534F;
+}
+.success-block blockquote {
+	border: 1px solid #5CB85C;
+	border-left: 5px solid #5CB85C;
+}
+/*** Dasboard css end***/
+
+.logo-img-measurement i {
+	color: #4267B2;
+	font-size: 168px;
+	line-height: 200px;
+}
+
+/*** ===========================
+	Tutorial Css Start Here
+================================***/
+.tutorial .btn-primary {
+	margin-top: 20px;
+}
+
+.add-tutorial-btn {
+	margin-bottom: 15px;
+}
+
+.tutorial-list-table table th {
+	text-align: center;
+}
+
+.table-icon i {
+	cursor: pointer;
+	padding-left: 5px;
+	transition: 0.5s;
+}
+
+.table-icon i:hover {color: #CE0037;}
+
+
+
+/*** ===========================
+	Tutorial Css End
+================================***/
+
+/*** Select Option CSS Start****/
+/* Reset Select */
+.select-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #ddd !important; 
+  background-image: none;
+}
+/* Custom Select */
+
+.select-style {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0.9em 0 0.9em .9em;
+  color: #000;
+  cursor: pointer;
+}
+.select-style::-ms-expand {
+  display: none;
+}
+
+.select-wrapper{
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #ddd;
+  overflow: hidden;
+  border-radius: 4px;
+}
+/* Arrow */
+.select-wrapper::after {
+  content: '\f078';
+  font-family: fontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.7em 1em;
+  pointer-events: none;
+}
+/* Transition */
+.select-wrapper:hover::after {
+  color: #000;
+}
+.select-wrapper::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/*** Select Option CSS End****/
+
+/*** user table CSS start****/
+.user-table table th {
+	text-align: center;
+}
+
+.tbl-action {
+	text-align: center;
+}
+
+.tbl-action i {
+	padding-right: 8px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.tbl-action i:hover{
+	color: #CE0037;
+}
+
+/*** user table CSS End****/

@@ -1,0 +1,184 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .single-feature h4 span i {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 25px;}
+.single-feature h4 span {padding-right: 15px;}
+.single-feature h4 {
+	font-size: 20px;
+	line-height: 22px;}
+.social-icon li i {margin-bottom: 10px;}
+.term-condition li {font-size: 12px;}
+
+
+/*** order page css ***/
+.order-page-inner {	padding: 30px;}
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+/****||| ====================( Menu css Stat Here)=============|||****/
+.my-menu ul li > a {
+	font-size: 14px;
+	padding: 9px;
+}
+.my-menu .navbar-brand img {max-width: 100px;}
+.my-menu .navbar { margin-bottom: 0px;}
+
+/****||| ====================( Menu css Stat End )=============|||****/  
+.single-pricing {margin-bottom: 30px;}
+.term-condition::after {left: 41%;}
+.title h2::after {left: 42%;}
+.title h2::before {left: 49.5%;}
+.padding-top{padding-top:100px;}
+.padding-bottom{padding-bottom:100px;}
+.testimonal-item-carouse-active .owl-nav div {display: none}
+.single-testimonial p {
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	margin-top: 0px;
+}
+
+.get-content {text-align: center;}
+
+/*** order page css ***/
+.order-page {padding: 30px 0;}
+.order-page-inner {padding: 50px 20px;}
+.card-images img, .card-images img {max-width: 40px;}
+
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ /****||| ====================( Menu css Stat Here)=============|||****/
+.my-menu .navbar-brand img {max-width: 100px;}
+.my-menu .navbar-brand {padding: 15px 0;}
+.my-menu .navbar {margin-bottom: 0;background: #272727;}
+.my-menu .navbar-toggle {background-color: #CF053A;}
+.my-menu .navbar-toggle .icon-bar {background: #fff;}
+.my-menu {	background: #272727;}
+.my-menu ul li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.my-menu  .navbar-toggle {margin-right: 0;}
+ /****||| ====================( Menu css Stat End)=============|||****/
+.padding-top{padding-top:50px;}
+.padding-bottom{padding-bottom:50px;}
+
+.hero-banner h3 {
+	font-size: 20px;
+	line-height: 22px;
+}
+.hero-banner h1 {
+	font-size: 30px;
+	line-height: 32px;
+}
+
+.hero-banner p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0;
+}
+
+.free-display-btn {
+	padding: 20px 40px;
+	font-size: 20px;
+	line-height: 25px;
+}
+.title h2::after {left: 34%;}
+.title h2::before {left: 49%;}
+.single-pricing {margin-bottom: 30px;}
+.term-condition::after {left: 41%;}
+.knowledge-header-section {display: none;}
+.testimonal-item-carouse-active .owl-nav div {display: none}
+.single-testimonial p {
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	margin-top: 20px;
+}
+.input-control {max-width: 60%;}
+.get-code-area {height: 350px;}
+.get-content {text-align: center;}
+.get-content h2 {
+	font-size: 25px;
+	line-height: 35px;}
+.get-btn {padding-top: 30px;}
+/*** Order page css start***/
+.order-page {padding: 30px 0;}
+.order-page-inner {padding: 30px 15px;}
+.card-images img, .card-images img {max-width:40px;}
+.order-button {margin-bottom: 30px;}
+.billing-sidebar {display: none;}
+.billing-sidebar-display-btn{display:block;}
+.order-button.billing-sidebar-display-btn{display:block;}
+.order-button{display:none;}
+.search-btn span {display: none;}
+.search-btn i {
+	padding-right: 0px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.card-name {padding-left: 30px;}
+.card-name input[type="checkbox"] + label::before {top: 7px;}
+.card-name input[type="checkbox"] + label::after {top: 11px;}
+.card-images img {display: none;}
+.term-condition::after {left: 43%;}
+.order-page-logo img {max-width: 100px;}
+.order-page-header {padding: 0 10px;}
+.back-home i {display: none;}
+.order-page-inner h2 {
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.know-page-header-section{padding-top:100px;}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.title h2::after {left: 41%;}
+.price::after {	height: 43px;}
+.term-condition::after {left: 23%;}
+.hero-banner-table-cell {padding-top: 28px;}
+.testimonal-item-carouse-active.owl-carousel .owl-item img {
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+.my-menu ul li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.free-display-btn {
+	padding: 15px 30px;
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 5px;
+}
+
+.hero-banner h1 {
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.hero-banner h3 {
+	font-size: 18px;
+	line-height: 12px;
+}
+
+.hero-banner p {
+	font-size: 13px;
+}
+
+
+}
